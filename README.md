@@ -1,8 +1,8 @@
-#### Olá! :raising_hand:
+#### Olá! :raising_hand: Tudo bem?
 
-###### Esta é meu currículo, ele está hospedado no Github Pages.
+###### Este é meu currículo. 
 
-###### Você pode acessá-lo no link abaixo:
+###### Ele está hospedado no Github Pages e você pode acessá-lo no link abaixo:
 
 :link: https://karolsansonove.github.io/curriculo-karoline-sansonove/
 
