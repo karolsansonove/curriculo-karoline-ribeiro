@@ -1,4 +1,4 @@
-<?php include ('send-email.php'); ?>
+<?php include ('./php/send-email.php'); ?>
 
 <!DOCTYPE html>
 <html lang="PT-BR">
