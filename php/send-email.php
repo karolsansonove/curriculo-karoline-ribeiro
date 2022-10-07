@@ -10,15 +10,17 @@
         $corpo = "Nome: ".$nome."\r\n"
                     ."E-mail: ".$email."\r\n"
                     ."Mensagem: ".$mensagem;
-        $header = "From:contato@karolribeiro.dev.br\r\n" // precisa ser o mesmo domínio do site
+        $header = "From:contato@karolribeiro.dev.br\r\n" // e-mail remetente
                     ."Reply-To:".$email."\r\n" // responder para e-mail do form
                     ."X=Mailer:PHP/".phpversion(); // versão do php
 
         if(mail($destino,$assunto,$corpo,$header)) {
-            echo "E-mail enviado com sucesso!";
+            echo "<script> alertarSucessoEnvio(); </script>";
         } else {
-            echo "Não foi possível enviar.";
+            echo "<script> alertarErroEnvio(); </script>";
         }
-
     }
+
 ?>
+
+<script src="../js/script.js"></script>

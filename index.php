@@ -1,3 +1,5 @@
+<?php include ('send-email.php'); ?>
+
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
@@ -115,7 +117,7 @@
 
         <div class="container falecomigo-container">
 
-            <form class="form-contato" method="post" action="./php/send-email.php">
+            <form class="form-contato" method="post" action="index.php">
                 <div class="falecomigo-content">
                     
                     <div class="form-content">
