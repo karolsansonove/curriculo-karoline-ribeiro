@@ -46,6 +46,10 @@
                         <p class="texto-conhecimento">Java</p>
                     </div>
                     <div>
+                        <img src="img/php.png" alt="Logo PHP">
+                        <p class="texto-conhecimento">PHP</p>
+                    </div>
+                    <div>
                         <img src="img/javascript.png" alt="Logo JavaScript">
                         <p class="texto-conhecimento">JavaScript</p>
                     </div>
@@ -111,7 +115,7 @@
 
         <div class="container falecomigo-container">
 
-            <form class="form-contato" method="post">
+            <form class="form-contato" method="post" action="./php/send-email.php">
                 <div class="falecomigo-content">
                     
                     <div class="form-content">
@@ -121,7 +125,7 @@
                         <input type="text" name="nome" id="nome" placeholder="Ex.: Maria da Silva">
                     
                         <label for="nome">E-mail:</label>
-                        <input type="email" name="nome" id="nome" placeholder="Ex.: seuemail@email.com">
+                        <input type="email" name="email" id="email" placeholder="Ex.: seuemail@email.com">
                     </div>
 
                     <div class="box-contatos">
@@ -146,7 +150,7 @@
                     <label for="mensagem">Mensagem:</label>
                     <textarea name="mensagem" id="mensagem" cols="30" rows="4" placeholder="Digite sua mensagem aqui"></textarea>
                 </div>
-                <input class="btn btn-enviar" type="submit" value="Enviar" onclick='alertar()'>
+                <input class="btn btn-enviar" type="submit" value="Enviar">
             </form>
         </div>
     </section>
