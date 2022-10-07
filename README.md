@@ -2,7 +2,6 @@
 
 ###### Este é meu currículo. 
 
-###### Ainda faltam alguns ajustes mas ele já está hospedado no Github Pages e você pode acessá-lo no link abaixo:
+###### Ainda faltam alguns ajustes mas ele já está hospedado no 000webhost e você pode acessá-lo no link abaixo:
 
-:link: https://karolsansonove.github.io/curriculo-karoline-ribeiro/
-
+:link: https://karolsansonove.000webhostapp.com/
